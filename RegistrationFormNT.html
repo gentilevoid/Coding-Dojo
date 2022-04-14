@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <link rel="stylesheet" href="RegFormStyle.css">
+      <!--This is where you "link" the css file to the html file to assign those
+      style aspects and rules to the site. The defaul name will alawys be style, 
+      but I like to change the name to match it-->
+      <meta charset="utf-8">
+      <title>Coding Dojo</title>
+    </head>
+    <body>
+      <h1>Registration Form</h1>
+      <div id="image"><img src="/Users/nicholastilton/Desktop/CodingDojo/Juvenile_Ragdoll.jpg" alt="" style="size: width:200px; height: 200px"></div>
+      <p>
+        <div id="textarea">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem reprehenderit, facilis sint a culpa, enim optio ut aut explicabo consequatur ad doloribus facere! Necessitatibus, ratione eaque veritatis assumenda architecto perferendis?
+        </div>
+      </p>
+      <p>
+        <div class="red" id="entryarea">
+          <label>First Name:*</label>
+          <input type="text" name="firstname" value="">
+        </div>
+      </p>
+
+      <p>
+        <div class="orange">
+          <label>Last Name:*</label>
+          <input type="text" name="lastname" value="">
+        </div>
+      </p>
+
+      <p>
+        <div class="yellow">
+          <label>Email Address:*</label>
+          <input type="text" name="emailadd" value="">
+        </div>
+      </p>
+
+      <p>
+        <div class="green">
+          <label>Password</label>
+          <input type="text" name="Password" value="">
+        </div>
+      </p>
+
+      <p>
+        <div class="blue">
+          <label>Confirm Password:*</label>
+          <input type="text" name="confpassword" value="">
+        </div>
+      </p>
+
+      <p>
+        <div class="purple">
+          <label>Birthday</label>
+          <input type="text" name="Birthday" value="mm/dd/yy">
+        </div>
+      </p>
+
+      <div class="red">
+        <p>Gender Identity:</p>
+        <input type="radio" name="man" value="">Man
+        <input type="radio" name="woman" value="">Woman
+        <input type="radio" name="nonbinary" value="">Non-binary
+        <input type="radio" name="noanswer" value="">I prefer not to answer
+      </div>
+      <div>
+        <p>A short description about myself:</p>
+        <input type="text" name="about" value="" style="height:50px; width:250px">
+      </div>
+      <div>
+        <p><label>Favorite Language:</label>
+        <select name="languages" id="codinglanguages">
+          <option value="Javascript">Javascript</option>
+          <option value="CSS">CSS</option>
+          <option value="Python">Python</option>
+          <option value="Swift">Swift</option>
+        </select></p>
+      </div>
+      <div>
+        <p><input type="checkbox" name="opt" value="">
+        <label>Yes, I would like to receive periodic email updates</label></p>
+      </div>
+      <input type="button" name="createaccount" value="Create Account">
+      <p>* Indicates a required field</p>
+    </body>
+  </html>

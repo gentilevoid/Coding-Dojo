@@ -1,0 +1,56 @@
+/*Using an asterisk will allow you to assign rules to all aspects of the site*/
+
+div {
+    display:block;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+    color: aliceblue;
+}
+.purple {
+    background-color: purple;
+    display: inline-block;
+}
+p{
+    width: 600px;
+    margin: 10x 10px 10px 10px;
+}
+#textarea{
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: .5cm .5cm .5cm .5cm;
+    text-align: center;
+}
+#image{
+    margin: 10px 10px 10px 10px;
+    border-radius: 70px                ;
+}
+/*Because CSS runs top to bottom, even though one area was originally assigned to red,
+since it ends with being re-classified as aqua, it will end up showing as aqua.*/
+
+#entryarea {
+    background-color: aqua;
+}
+
+/*ID's (designated by #) overrule classes (designated by .) which overule div characteristics
+which will apply to all divs.*/
+
+/*Display block, as in the beginning, will take up the whole area available to it. Inline-block
+will instead only take up the area that the text is taking up. This will be important to this
+week's assignment.*/
+
+/*Padding creates more room within an object, and margins create more room between objects*/
+
+/*Border radius can create rounding on corners of objects, which looks nifty*/
